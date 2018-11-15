@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 9671e17507f534c219c1ac5e0ba8adad
+timeCreated: 1459778290
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bullet
+    100002: Camera
+    100004: Grenade
+    100006: GrenadeLauncher
+    100008: Lamp
+    100010: MachineGun
+    100012: MachineGun2
+    100014: Rocket
+    100016: RocketLauncher
+    100018: //RootNode
+    400000: Bullet
+    400002: Camera
+    400004: Grenade
+    400006: GrenadeLauncher
+    400008: Lamp
+    400010: MachineGun
+    400012: MachineGun2
+    400014: Rocket
+    400016: RocketLauncher
+    400018: //RootNode
+    2300000: Bullet
+    2300002: Grenade
+    2300004: GrenadeLauncher
+    2300006: MachineGun
+    2300008: MachineGun2
+    2300010: Rocket
+    2300012: RocketLauncher
+    3300000: Bullet
+    3300002: Grenade
+    3300004: GrenadeLauncher
+    3300006: MachineGun
+    3300008: MachineGun2
+    3300010: Rocket
+    3300012: RocketLauncher
+    4300000: GrenadeLauncher
+    4300002: RocketLauncher
+    4300004: MachineGun2
+    4300006: MachineGun
+    4300008: Bullet
+    4300010: Rocket
+    4300012: Grenade
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

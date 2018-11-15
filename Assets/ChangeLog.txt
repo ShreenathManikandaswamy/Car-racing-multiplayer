@@ -1,0 +1,45 @@
+1.1.0:
+- Major update. Now PUN Rally is PUN Combat Rally:
+	- Completely new Weapon system
+	- Extensible Powerups, with ammo, speed-up, speed-down, etc;
+	- Tested on mobile platforms;
+- Revised GUI code;
+- Some minor bug fixes.
+
+1.0.6b:
+- Bug fixes at the end of the race:
+	- number of laps is fixed (2/2, no 3/2 anymore);
+	- Formatted time (00:00:000);
+	- corrected bug that kept counting the time for some cars, and had flipped positions;
+- Bug fixes in Menu scene:
+	- If player creates a race and then uses the back button, the next race it created would
+	be labeled with a random/garbage string. Fixed for keep on using the player nickname;
+
+1.0.6:
+- Simple weapon system;
+- End race panel;
+- Refactoring of GUI code, making it more modular (necessary because of the new panel);
+- Back button (car selection back to race/room creation/joining);
+- Bug correction: Wait for all players to load scene before countdown;
+- Extensibility: template code car custom color sent via Photon (lacks a color pick and
+	applying to materials);
+
+1.0.5:
+
+- Car physics tweaks for improved stability and control easyness;
+- Mobile controls (accell and brake as screen buttons and tilt steeering);
+- Track selector with three tracks (two new): master client can choose tracks, while the 
+	others can see which track is being selected in realtime;
+- Auto-unflip car (dot product based upside-down detection + auto unflip - good for mobile);
+- Wrong way computation (also dot product based);
+- Updated PDF Tutorial (1.0.5);
+- All tracks now have a start/finish mark;
+- New CarInput class separates input gathering from application on car in different
+	methods, making it suitable for inheritance (check the online forums to get sub-classes
+	that act as bridges for other car physics packs such as Edy's Vehicle Physics and
+	Realistic Car Controller);
+
+TODO for 1.0.7
+- Auto-numbering of players with equal nickname;
+- one or two new weapons;
+- integration with "Randomnation 2.0" and "funcar kit" car physycis packs;
